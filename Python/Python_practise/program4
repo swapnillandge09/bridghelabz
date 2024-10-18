@@ -1,0 +1,16 @@
+# find duplicate element with count;
+number = [13, 21, 33, 52, 44, 21, 33, 13]
+counts = {}
+duplicates = {}
+
+for i in number:
+    if i in counts:
+        counts[i] += 1
+    else:
+        counts[i] = 1
+
+for key, value in counts.items():
+    if value > 1:
+        duplicates[key] = value
+
+print(f"Duplicate elements with counts: {duplicates}")

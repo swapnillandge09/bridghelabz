@@ -1,0 +1,50 @@
+# # String question:
+# string = "Hello How Are You"
+# reversed_str=string[::-1]
+# print(reversed_str)
+
+string1 = "swapnil Sanjay Landge"
+reversed_str1 =' '.join(word[::-1] for word in string1.split())
+print(reversed_str1)
+
+# string3 = "i am as good as shun rise in morning as"
+# words = string3.split()
+# seen = set()
+# duplicate = set()
+# for str in words:
+#     if str in seen:
+#         duplicate.add(str)
+#     else:
+#         seen.add(str)
+# dup = list(duplicate)
+# print(dup)
+# count_as = words.count("as")
+# print(f"The word 'as' appears {count_as} times.")
+
+
+
+# string = "i am as good as sunshine"
+# words = string.split()
+
+# # Create a set to store seen words
+# seen = set()
+# # Create a set to store duplicates
+# duplicates = set()
+
+# # Loop through words to find duplicates
+# for word in words:
+#     if word in seen:
+#         duplicates.add(word)
+#     else:
+#         seen.add(word)
+
+# # Convert the set of duplicates to a list if needed
+# duplicates = list(duplicates)
+# print(f"Duplicate words: {duplicates}")
+
+
+
+string = "i am as good as sunshine"
+words = string.split()
+
+# Count occurrences of "as"

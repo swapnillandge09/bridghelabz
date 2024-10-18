@@ -1,0 +1,36 @@
+# def calculate(a,b):
+#     mean = (a*b)/(a+b)
+#     print(mean)
+# a = 6
+# b = 7 
+# calculate(a,b)
+
+# x = 2
+
+# if x > 0:
+#     print('Positive')
+
+# if x > 0:
+#     print ('Positive')
+# else :
+#     print ('Negative')
+
+# if x > 0:
+#     print('Positive')
+# elif x==0 :
+#     print('Zero')
+# else :
+#     print('Negative')
+
+# try :
+#     x = 10/ 0
+# except ZeroDivisionError :
+#   print('Cannot divide by Zero')
+
+
+
+n = 4
+hormonic_sum = 0
+for i in range (1,n+1):
+    hormonic_sum = 1/i
+print(hormonic_sum)
