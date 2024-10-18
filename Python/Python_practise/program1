@@ -1,0 +1,8 @@
+list = [1,2,3,54,6,7,9]
+count =[]
+for i in list:
+    if i % 2 == 0:
+        print(f"even {i}")
+    else :
+        print(f"odd {i}")
+print(count)

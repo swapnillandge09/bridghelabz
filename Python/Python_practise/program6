@@ -1,0 +1,17 @@
+x = 2
+if x > 0:
+    print('Positive')
+if x > 0:
+    print ('Positive')
+else :
+    print ('Negative')
+if x > 0:
+    print('Positive')
+elif x==0 :
+    print('Zero')
+else :
+    print('Negative')
+try :
+    x = 10/ 0
+except ZeroDivisionError :
+  print('Cannot divide by Zero')
