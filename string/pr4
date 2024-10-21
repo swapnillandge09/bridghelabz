@@ -1,0 +1,14 @@
+string = "I am as good as I believe I can be"
+word = string.split()
+seen = set()
+duplicate = set()
+for i in word:
+    if i in seen:
+        duplicate.add(i)
+    else :
+        seen.add(i)
+duplicate1 = list(duplicate)
+print(f"duplicate words are {duplicate1}")
+
+count = word.count("as")
+print(f"the word appears {count}")

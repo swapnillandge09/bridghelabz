@@ -1,0 +1,8 @@
+string = "hello how are you"
+reversed = string[::-1]
+print(reversed)
+
+str = "I am healthy"
+s = len(str)
+print(s)
+print(str.split())
